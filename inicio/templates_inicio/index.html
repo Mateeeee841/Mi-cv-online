@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    {% load static %}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Cv</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'inicio\assets\img\favicon.ico'%}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'inicio/css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <br><br><br>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <p style="margin-top:20px ;">
+                <a href="{%url 'vercvesp'%}"><img style="max-width: 39%;max-height: 39%;margin-right: 40px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png"></a> 
+                <a href="{%url 'vercv'%}"><img style="max-width: 39%;max-height: 39%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"></a>
+            </p>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Mateo Gomez Maryncak</span>
+                
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'inicio\assets\img\perfil.jpg'%}" alt="..."/></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About me</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{%url 'questions'%}">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Mateo
+                        <span class="text-primary">Gomez Maryncak</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        03/03/2003 · Conesa 135 · Buenos Aires, Quilmes · (+54) 11 3000-0222 ·
+                        <a href="mailto:gomezmaryncakmateo@gmail.com">gomezmaryncakmateo@gmail.com</a>
+                    </div>
+                    <p style="font-size:large;">Web development student, eager to work. Good at team work ,specialized in Backend and with knowledge in Frontend.</p>
+                    <br><br>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/mateo-gomez-maryncak-5679131b9/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/Mateeeee841"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="{% static 'inicio\pdf\Curriculumvitae.pdf'%}"><img src="https://cdn-icons-png.flaticon.com/512/1330/1330202.png" style="max-width: 50%;max-height: 50%;"  alt=""></a>
+                    </div>
+                </div>
+            </section>
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Clothing Store</h3>
+                            <div class="subheading mb-3">Montagne Quilmes</div>
+                            <p>During this job i've learn about teamwork, working within different fields and treating with people</p>
+                        </div>
+                </div>
+            </section>
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"><a href="http://www.qhs.com.ar/" style="color:green;">Quilmes High School</a></h3>
+                            <div class="subheading mb-3">Primary School - Secondary School</div>
+                            <p>Bilingual school with intenational examns, where I learn English</p>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2012 - 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"><a href="https://www.innova.net.ar/" style="color:mediumblue;">Innova</a></h3>
+                            <div class="subheading mb-3">Secondary School - Bachiller en Economia</div>
+                            <p>Google Reference School, Digital Classrooms,  PBD (Project Based Learning)</p>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2018 - 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"><a href="https://www.coderhouse.com/" style="color:darkgoldenrod;">Coder House</a></h3>
+                            <div class="subheading mb-3">Python - Django - Html - Css</div>
+                            <p>Python, Framework Django and bases of HTML and CSS</p>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2021 - 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"><a href="https://www.utn.edu.ar/es/" style="color:black;">UTN</a></h3>
+                            <div class="subheading mb-3">Software Development Technician </div>
+                            <p>In process</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2022 - Continues</span></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                    </ul>
+                    <div class="subheading mb-3"></div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Html 5 
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            CSS 3
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Python
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Bootstrap
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>In my free time, I like to hang out with my friends and watch comedy films or tv shows. I also like to practice boxing, jump rope and play billiard</p>
+                </div>
+            </section>
+        </div>
+    </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <br>
+        
+    </body>
+</html>
