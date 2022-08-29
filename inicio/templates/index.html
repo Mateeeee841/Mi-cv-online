@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Cv</title>
+        <title>Mateo</title>
         <link rel="icon" type="image/x-icon" href="{% static 'inicio\assets\img\favicon.ico'%}" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -15,14 +15,35 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{% static 'inicio/css/styles.css' %}" rel="stylesheet" />
+        <style>
+            @media (max-width: 750px) {
+                
+                .españa {
+                max-width: 39%;
+                max-height: 39%;
+                margin-right: 40px;
+                width: 50px;
+                height: 50px;
+                }
+
+                .uk {
+                max-width: 39%;
+                max-height: 39%;
+                margin-right: 40px;
+                width: 50px;
+                height: 50px;
+                }
+            }
+
+        </style>
     </head>
     <body id="page-top">
         <br><br><br>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <p style="margin-top:20px ;">
-                <a href="{%url 'vercvesp'%}"><img style="max-width: 39%;max-height: 39%;margin-right: 40px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png"></a> 
-                <a href="{%url 'vercv'%}"><img style="max-width: 39%;max-height: 39%;" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"></a>
+            <p style="margin-top:20px ;margin-bottom: -25px;">
+                <a href="{%url 'vercvesp'%}"><img class="españa" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png"></a> 
+                <a href="{%url 'vercv'%}"><img class="uk" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"></a>
             </p>
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Mateo Gomez Maryncak</span>
@@ -54,7 +75,7 @@
                         03/03/2003 · Conesa 135 · Buenos Aires, Quilmes · (+54) 11 3000-0222 ·
                         <a href="mailto:gomezmaryncakmateo@gmail.com">gomezmaryncakmateo@gmail.com</a>
                     </div>
-                    <p style="font-size:large;">Web development student, eager to work. Good at team work ,specialized in Backend and with knowledge in Frontend.</p>
+                    <p style="font-size:large;">Web development student, eager to work. Teamworker ,specialized in Backend and with knowledge in Frontend.</p>
                     <br><br>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/mateo-gomez-maryncak-5679131b9/"><i class="fab fa-linkedin-in"></i></a>
@@ -83,7 +104,7 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="http://www.qhs.com.ar/" style="color:green;">Quilmes High School</a></h3>
                             <div class="subheading mb-3">Primary School - Secondary School</div>
-                            <p>Bilingual school with intenational examns, where I learn English</p>
+                            <p>Bilingual school. Intenational examns, where I learn English</p>
                             <p></p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2012 - 2018</span></div>
@@ -110,9 +131,9 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="https://www.utn.edu.ar/es/" style="color:black;">UTN</a></h3>
                             <div class="subheading mb-3">Software Development Technician </div>
-                            <p>In process</p>
+                            <p>In progress</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2022 - Continues</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2022 - Present</span></div>
                     </div>
                 </div>
             </section>
@@ -152,7 +173,7 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>In my free time, I like to hang out with my friends and watch comedy films or tv shows. I also like to practice boxing, jump rope and play billiard</p>
+                    <p>Within my free time, I like hanging out with friends, watch comedy films or tv shows. In addition, I like practice boxing, jump rope and play billiard</p>
                 </div>
             </section>
         </div>

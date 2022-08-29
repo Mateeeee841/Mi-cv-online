@@ -70,6 +70,25 @@
   box-sizing: border-box;
 }
 
+
+
+.españa{
+  max-width: 39%;
+  max-height: 39%;
+  margin-right: 40px;
+  width: 65px;
+  height: 115px;
+}
+
+.uk{
+  max-width: 39%;
+  max-height: 39%;
+  width: 65px;
+  height: 115px;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -4065,7 +4084,7 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   list-style: none;
 }
 .navbar-nav .nav-link {
@@ -11365,8 +11384,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
