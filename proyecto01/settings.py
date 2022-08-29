@@ -54,7 +54,7 @@ ROOT_URLCONF = 'proyecto01.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\User\Desktop\Paginacv\Mi-cv-online\inicio\templates_inicio'],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
