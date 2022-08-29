@@ -70,7 +70,10 @@
   box-sizing: border-box;
 }
 
-
+.pe{
+  margin-top:20px ;
+  margin-bottom: -25px;
+}
 
 .españa{
   max-width: 39%;
