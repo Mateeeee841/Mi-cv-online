@@ -16,6 +16,26 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{% static 'inicio/css/styles.css' %}" rel="stylesheet" />
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <style>
+            @media (max-width: 750px) {
+
+            .form-control{
+                width: 250px;
+            }
+
+            .texto_mensaje{
+                width: 250px;
+                height: 100px;
+            }
+        }
+         @media (min-width: 750px) {
+            .texto_mensaje{
+                width: 500px;
+                height: 100px;
+            }
+         
+         }
+        </style>
     </head>
 
     <body id="page-top">
@@ -53,14 +73,14 @@
                                 <label for="floatingInput">Email</label>
                               </div>
                             </p>        
-                                                    <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Consulta" style="width: 500px;height:100px;" maxlength="200"></textarea> 
+                                                    <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Consulta"  maxlength="200"></textarea> 
                              <br>
                              <br>
-                                <div class="form-floating">
-                                <div class="g-recaptcha" data-sitekey="6Lc7lqshAAAAAKBEYeXA8Acoq-6RM1__Xx5zDHDT" ></div>
+                                <div class="form-floating" >
+                                <div class="g-recaptcha" data-sitekey="6Lc7lqshAAAAAKBEYeXA8Acoq-6RM1__Xx5zDHDT"></div>
                                 </div>
                               <br>
-                              <button class="w-100 btn btn-lg btn-primary" onclick="checkRecaptcha();" type="submit" >Enviar</button>  
+                              <button class="w-100 btn btn-lg btn-primary"  onclick="checkRecaptcha();" type="submit" >Enviar</button>  
                 </div>  
               </div>
               </form>

@@ -16,6 +16,26 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{% static 'inicio/css/styles.css' %}" rel="stylesheet" />
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <style>
+            @media (max-width: 750px) {
+
+            .form-control{
+                width: 250px;
+            }
+
+            .texto_mensaje{
+                width: 250px;
+                height: 100px;
+            }
+        }
+         @media (min-width: 750px) {
+            .texto_mensaje{
+                width: 500px;
+                height: 100px;
+            }
+         
+         }
+        </style>
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -51,7 +71,7 @@
                                 <label for="floatingInput">Email</label>
                               </div>
                             </p>        
-                                                    <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Question" style="width: 500px;height:100px; "></textarea> 
+                                                    <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Question" ></textarea> 
                              <br>
                              <br>
                                 <div class="form-floating">
